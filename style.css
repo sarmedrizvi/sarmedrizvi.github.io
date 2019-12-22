@@ -6,7 +6,13 @@
 	
 }
 .BackBody{
-	background-color: rgb(48, 95, 95);
+	background: linear-gradient(
+	rgba(53, 39, 253, 0.45), 
+	rgba(23, 20, 233, 0.966)),url('./assets/images/img-01.jpg') !important;
+	background-size: cover !important;
+	background-position: center !important;
+	background-repeat: no-repeat !important;
+	 /* background-blend-mode:screen; */
 }
 .design{
 	display: flex;
